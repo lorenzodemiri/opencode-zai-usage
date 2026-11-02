@@ -1,0 +1,20 @@
+{
+  "name": "opencode-zai-usage",
+  "version": "1.0.0",
+  "description": "OpenCode v2 TUI sidebar section showing z.ai Coding Plan allowance (5h + weekly usage bars, reset countdowns) plus a /zai-usage command.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorenzodemiri/opencode-zai-usage.git"
+  },
+  "exports": {
+    ".": "./index.ts",
+    "./tui": "./tui.ts"
+  },
+  "peerDependencies": {
+    "@opentui/core": ">=0.8.0",
+    "@opentui/solid": ">=0.8.0",
+    "solid-js": ">=1.9.0"
+  }
+}
